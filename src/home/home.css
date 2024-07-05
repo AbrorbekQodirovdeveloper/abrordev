@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+}
+header{
+     width: 100%;
+     height: 130vh;
+     border: 1px solid white;
+    
+     
+}
+.container{
+    min-width: 90%;
+    border: 1px solid green hidden;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+ nav{
+     width: 100%;
+     margin: 0 auto;
+     height: 10vh;
+     align-items: center;
+     display: flex;
+     justify-content: space-between;
+     background-color: white;
+     padding-left: 6rem;
+     padding-right: 6rem;
+     border: 1px solid antiquewhite;
+     position: fixed;
+    
+}
+header nav ul{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 3rem;
+       
+}
+header nav ul li a{
+      gap: 2rem;
+     
+}
+header nav ul li a:hover{
+    gap: 2rem;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+header nav ul input{
+     width: 25rem;
+     height: 3rem;
+     background-color: #F6F6F6;
+     border-radius: 1rem ;
+     font-size: 1.5rem;
+     color:  black;
+        
+}
+.headericons{
+    width: 17%;
+    gap: 2rem;
+}
+.headericons .icon{
+     width: 5rem;
+     height: 5rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #F6F6F6;
+}
+.headericons .icon i{
+     font-size: 3rem;
+     color: gray;
+    
+}
+.headericons .icon i:hover{
+    font-size: 3rem;
+    color: black;
+   
+}
+.banner{
+    width: 100%;
+    height: 120vh;
+    border: 1px solid red hidden;
+    background-image: url(./home_img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+}
+.bannertitle{
+      position: relative;
+      top: 10rem;
+     width: 40%;
+      height: 70vh;
+      border: 1px solid aqua hidden;
+      margin-left: 15rem;
+}
+.bannertitle #text{
+     font-size: 8rem;
+     color: white;
+}
+.bannertitle a button{
+    margin-top: 2rem;
+     width: 20rem;
+     height: 4rem;
+     background-color: #F6F6F6;
+     font-size: 2rem;
+}
+main{
+     width: 100%;
+
+}
+main .rows{
+    width: 100%;
+     margin-top: 8rem;
+    
+}
+.row{
+      width: 100%;
+      display: flex;
+      gap: 3rem;
+      
+     
+
+}
+.box{
+     width: 49%;
+     height: 55vh;
+     border: 1px solid yellow hidden;
+     background-image: url(./home_img/box.jpg) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 2rem;
+}
+.box1{
+    width: 55%;
+    height: 55vh;
+    border: 1px solid yellow hidden; 
+    background-image: url(./home_img/box1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+}
+.boxtitle{
+      width: 70%;
+      height: 40vh;
+      border: 1px solid red hidden;
+      margin-left: 3rem;
+      margin-top: 5rem;
+}
+#boxh1{
+      font-size: 4rem;
+      color: white;
+}
+.box1title{
+      width: 60%;
+      height: 40vh;
+      margin-top: 5rem;
+      margin-left: 4rem;
+}
+.box1title hr{
+      width: 18rem;
+}
+.boxtitle hr{
+     width: 18rem;
+}
+.newarial{
+     margin-top: 5rem;
+      width: 100%;
+      height: 75vh;
+      border: 1px solid red hidden;
+}
+.arial{
+      width: 100%;
+      height: 60vh;
+      border: 1px solid aqua hidden;
+      gap: 3rem;
+      justify-content: center;
+}
+.item{
+      width: 22%;
+      height: 50vh;
+      border: 1px solid blue hidden;
+      border-radius: 1.5rem;
+}
+.item img{
+      width: 100%;
+      height: 37vh;
+     }
+     .bigsaving{
+          width: 100%;
+          height: 160vh;
+          border: 1px solid blue hidden;
+    }
+     .saving{
+           width: 100%;
+           height: 60vh;
+           border: 1px solid red hidden;
+           gap: 3rem;
+           margin-top:  5rem;
+     }
+     .zone1{
+           width: 32%;
+           height: 60vh;
+           border: 1px solid aqua hidden;
+           background-image: url(./home_img/Rectangle\ 74.png);
+           background-repeat: no-repeat;
+           background-size: cover;
+           border-radius: 1rem ;
+     }
+     .zone2{
+          width: 32%;
+          height: 60vh;
+          border: 1px solid aqua hidden;
+          background-image: url(./home_img/Rectangle\ 75.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 1rem ;
+    }
+    .zone3{
+     width: 32%;
+     height: 60vh;
+     border: 1px solid aqua hidden;
+     background-image: url(./home_img/Rectangle\ 76.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 1rem ;
+}
+.bigzone{
+      width: 100%;
+      height: 65vh;
+      border: 1px solid green hidden;
+      gap: 2.5rem;
+      margin-top: 7rem;
+}
+.shirt{
+      width: 50%;
+      height: 60vh;
+      border: 1px solid blue hidden;
+      background-image: url(./home_img/Rectangle\ 77.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 1rem;
+
+}
+.tshirt{
+     width: 50%;
+     height: 60vh;
+     border: 1px solid blue hidden;
+     background-image: url(./home_img/Rectangle\ 78.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 1rem;
+}
+.shirttitle{
+      margin-top: 2rem;
+       width: 35%;
+       height: 55vh;
+       border: 1px solid rebeccapurple hidden;
+       margin-left: 25rem;
+}
+.shirttitle h3{
+      font-size: 4rem;
+}
+.shirttitle h2{
+      font-size: 1.5rem;
+}
+.shirttitle a button{
+         width: 15rem;
+         height: 4rem;
+         background: transparent; 
+         border: 2px solid black;
+         margin-left: 8%;
+         margin-top: 2rem;
+}
+.shirttitle img{
+        margin-left: 45%;
+        margin-top: 2rem;
+         height: 2.5rem;
+}
+.zonetitle{
+       width: 50%;
+       height: 60vh;
+       margin-left: 15rem;
+       border: 1px solid red hidden;
+}
+.zonetitle h2{
+    font-size: 4rem;
+    
+}
+.zonetitle img{
+        margin-left: 45%;
+        margin-top: 1rem;
+}
+.zonetitle  a button{
+      width: 15rem;
+      height: 4rem;
+      background: transparent; 
+      border: 2px solid black;
+      margin-left: 8%;
+      margin-top: 2rem;
+}
+.zonetitle  a #btn{
+      width: 15rem;
+      height: 4rem;
+      background: black; 
+      border: 2px solid black;
+       margin-left: 1rem;
+      margin-top: 2rem;
+      color: #F6F6F6;
+       font-size: 2rem;
+}
+#zonetitleh1{
+      margin-top: 4rem;
+}
+.background{
+       width: 100%;
+       height: 75vh;
+       border: 1px solid red;
+       border-radius: 1rem;
+
+}
+.left{
+      width: 50%;
+      height: 75vh;
+       border: 1px solid yellow;
+       background-image: url(./home_img/bg-1.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-radius: 1rem;
+}
+.right{
+      width: 50%;
+      height: 75vh;
+       border: 1px solid yellow;
+       background-image: url(./home_img/bg-2.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       border-radius: 1rem;
+}
+.left h1{
+      margin-left: 8rem;
+      margin-right: 2rem;
+      margin-top: 10rem;
+       font-size: 3rem;
+       color: white;
+}
+.left p{
+      margin-left: 8rem;
+      margin-right: 2rem;
+     
+       
+       color: white;
+}
+.left a button{
+      margin-top: 3rem;
+      margin-left: 8rem;
+      margin-right: 2rem;
+      width: 15rem;
+      height: 4rem;
+      background-color: #F6F6F6;
+      font-size: 2rem;
+      border-radius: 1rem;
+}
